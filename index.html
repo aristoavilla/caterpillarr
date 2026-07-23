@@ -3,63 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A responsive musician portfolio template for releases, live dates, and bookings.">
-  <title>Nova Rey — Musician</title>
+  <meta name="description" content="Nova Rey — handmade songs, loud colors, and live dates.">
+  <title>Nova Rey — Handmade Noise</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Patrick+Hand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to the good stuff</a>
   <header class="site-header">
-    <a class="wordmark" href="#top" aria-label="Nova Rey home">NOVA REY</a>
-    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <a class="wordmark" href="#top" aria-label="Nova Rey home">NOVA <span>REY!</span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">MENU ☰</button>
     <nav id="site-nav" aria-label="Primary navigation">
-      <a href="#music">Music</a><a href="#shows">Shows</a><a href="#about">About</a><a href="#contact">Contact</a>
+      <a href="#music">Music</a><a href="#shows">Shows</a><a href="#about">About</a><a href="#contact">Say hey!</a>
     </nav>
   </header>
 
   <main id="main">
     <section class="hero" id="top">
       <div class="hero-copy">
-        <p class="eyebrow">New single · Out now</p>
-        <h1>Midnight<br><em>Bloom</em></h1>
-        <p class="intro">Songs for the hour when the city goes quiet and everything honest gets louder.</p>
-        <div class="actions"><a class="button primary" href="#music">Listen now</a><a class="button secondary" href="#shows">View shows</a></div>
+        <p class="sticker">★ NEW SONG! ★</p>
+        <h1>MIDNIGHT<br><span>BLOOM</span></h1>
+        <p class="intro">Songs for the hour when the city shuts up<br>and your heart turns the volume <strong>WAY UP.</strong></p>
+        <div class="actions"><a class="button primary" href="#music">▶ LISTEN NOW</a><a class="button secondary" href="#shows">SEE ME LIVE →</a></div>
       </div>
-      <div class="cover" role="img" aria-label="Abstract album artwork in amber and deep red">
-        <span>NOVA REY</span><strong>MIDNIGHT<br>BLOOM</strong><i aria-hidden="true"></i>
+      <div class="art-wrap" aria-label="Midnight Bloom album artwork">
+        <div class="burst" aria-hidden="true">NEW!</div>
+        <div class="cover">
+          <span class="cover-name">NOVA REY</span>
+          <span class="moon" aria-hidden="true">☾</span>
+          <strong>MIDNIGHT<br>BLOOM</strong>
+          <span class="flower" aria-hidden="true">✿</span>
+          <small>PLAY IT LOUD!</small>
+        </div>
+        <span class="scribble" aria-hidden="true">〰〰〰</span>
       </div>
     </section>
 
+    <section class="marquee" aria-label="Artist description"><div>LOUD HEARTS ✦ LATE NIGHTS ✦ ANALOG SOUL ✦ LOUD HEARTS ✦ LATE NIGHTS ✦ ANALOG SOUL ✦</div></section>
+
     <section class="release section" id="music">
-      <div><p class="eyebrow">Latest release</p><h2>A slow-burning song about beginning again.</h2></div>
-      <div class="track">
-        <button class="play" type="button" aria-label="Play Midnight Bloom preview" data-playing="false">▶</button>
-        <div><strong>Midnight Bloom</strong><span>Nova Rey · 3:42</span></div>
-        <div class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="section-heading"><span class="number">01</span><div><p class="kicker">LATEST RELEASE</p><h2>Turn it up<br><em>until it hurts.</em></h2></div></div>
+      <div class="cassette">
+        <div class="cassette-label"><span>SIDE A</span><strong>MIDNIGHT BLOOM</strong><span>3:42</span></div>
+        <button class="play" type="button" aria-label="Play Midnight Bloom preview" data-playing="false"><span>▶</span></button>
+        <div class="reels" aria-hidden="true"><i></i><b>〰〰〰〰</b><i></i></div>
+        <p>NOVA REY / HOME RECORDING NO. 07</p>
       </div>
-      <div class="platforms" aria-label="Streaming links"><a href="#">Spotify</a><a href="#">Apple Music</a><a href="#">YouTube</a><a href="#">Bandcamp</a></div>
+      <div class="platforms" aria-label="Streaming links"><span>FIND IT ON →</span><a href="#">Spotify</a><a href="#">Apple Music</a><a href="#">YouTube</a><a href="#">Bandcamp</a></div>
     </section>
 
     <section class="shows section" id="shows">
-      <p class="eyebrow">Live</p><h2>Upcoming shows</h2>
-      <div class="show"><time datetime="2026-09-12"><b>12</b>Sep 2026</time><div><strong>The Lantern Room</strong><span>Portland, OR</span></div><a href="#">Tickets</a></div>
-      <div class="show"><time datetime="2026-10-03"><b>03</b>Oct 2026</time><div><strong>Northline Theatre</strong><span>Seattle, WA</span></div><a href="#">Tickets</a></div>
-      <div class="show"><time datetime="2026-10-18"><b>18</b>Oct 2026</time><div><strong>Golden Hour Festival</strong><span>Austin, TX</span></div><a href="#">Details</a></div>
+      <div class="section-heading light"><span class="number">02</span><div><p class="kicker">COME MAKE SOME NOISE</p><h2>Shows!</h2></div></div>
+      <div class="show-list">
+        <article class="show"><time datetime="2026-09-12"><b>12</b><span>SEP<br>2026</span></time><div><strong>The Lantern Room</strong><span>Portland, OR</span></div><a href="#">TICKETS ↗</a></article>
+        <article class="show"><time datetime="2026-10-03"><b>03</b><span>OCT<br>2026</span></time><div><strong>Northline Theatre</strong><span>Seattle, WA</span></div><a href="#">TICKETS ↗</a></article>
+        <article class="show"><time datetime="2026-10-18"><b>18</b><span>OCT<br>2026</span></time><div><strong>Golden Hour Festival</strong><span>Austin, TX</span></div><a href="#">DETAILS ↗</a></article>
+      </div>
+      <p class="note">P.S. BRING EARPLUGS! →</p>
     </section>
 
     <section class="about section" id="about">
-      <div class="portrait" role="img" aria-label="Decorative artist portrait placeholder"><span>Artist photo</span></div>
-      <div><p class="eyebrow">About</p><h2>Intimate songs.<br>Electric nights.</h2><p>Nova Rey is an independent singer-songwriter blending warm analog textures, unguarded lyrics, and melodies built to linger. Replace this copy with your artist biography.</p><a class="text-link" href="#contact">Press kit →</a></div>
+      <div class="portrait" role="img" aria-label="Artist portrait placeholder">
+        <span class="tape" aria-hidden="true"></span><div class="face" aria-hidden="true"><i></i><i></i><b>⌣</b></div><small>THIS IS ME! ↑</small>
+      </div>
+      <div class="about-copy"><div class="section-heading"><span class="number">03</span><div><p class="kicker">HI, I'M NOVA</p><h2>Soft songs.<br><em>Loud feelings.</em></h2></div></div><p>I'm an independent singer-songwriter mixing warm tape hiss, unguarded lyrics, and melodies that hang around long after the lights come up.</p><p class="hand-note">Made with a beat-up guitar,<br>three chords & zero chill. ♡</p><a class="button primary" href="#contact">GET THE PRESS KIT →</a></div>
     </section>
   </main>
 
   <footer id="contact">
-    <p class="eyebrow">Bookings & press</p><a class="email" href="mailto:hello@example.com">hello@example.com</a>
-    <div><span>© 2026 Nova Rey</span><span>Instagram · TikTok · YouTube</span></div>
+    <div><p class="kicker">BOOKINGS, PRESS & GOOD IDEAS</p><a class="email" href="mailto:hello@example.com">HELLO@EXAMPLE.COM</a></div>
+    <p class="footer-star" aria-hidden="true">★</p>
+    <div class="footer-bottom"><span>© 2026 NOVA REY</span><span><a href="#">INSTAGRAM</a> · <a href="#">TIKTOK</a> · <a href="#">YOUTUBE</a></span><span>MADE BY HAND (MOSTLY)</span></div>
   </footer>
 </body>
 </html>
